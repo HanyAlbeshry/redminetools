@@ -1,0 +1,485 @@
+@media (max-width: 899px){
+	.redmine_mobile_menu #header, #wrapper .flyout-menu {
+		background-color: #009EE0 !important;
+	}
+	#wrapper .flyout-menu h3{
+		background-color: #243133;
+	}
+	#wrapper .flyout-menu .fa:before{
+		color:white;
+	}
+	.grid_4,.grid_3,.grid_2 {
+		width:100% !important;
+	}
+	.block-button{
+		width:175px !important;
+	}
+	.buttons .block-button{
+		width:100% !important;
+
+	}
+	.buttons .block-button img{
+		left:20px !important;
+	}
+	.buttons .color{
+		width:70% !important;
+	}
+	.channel-image{
+		display: none !important;
+	}
+}
+
+@media (max-width: 1025px){
+	.main-block-container{
+		padding:0px !important;
+	}
+}
+
+/* global */
+.text-center{
+	text-align: center !important;
+}
+
+.img-responsive{
+	max-width: 100% !important;
+	height: auto !important;
+	width: 100% !important;
+}
+
+.col-center{
+	margin:0 auto !important;
+	float: none !important;
+	display: block !important;
+}
+
+.text-white{
+	color:white;
+}
+
+#footer{
+	display:none;
+}
+/* end global */
+
+/* header */
+#header h1{
+  text-align: center;
+}
+
+#quick-search{
+	display:none;
+}
+#slogan{
+    float: right;
+    width: 166px;
+    margin: -15px;
+    margin-right: 20px;
+}
+
+#top-menu{
+  background: #009EE0 url(/images/DigiCamp-new-samll-light.png) no-repeat !important;
+    padding: 15px 10px 5px 150px !important;
+    font-size: 17px;
+}
+#account{
+margin: 0 170.5px 0 0 !important;
+}
+#header {
+	padding-top: 65px !important;
+}
+
+#top-menu ul a:before, #top-menu #loggedas a:before, #top-menu #account:before, #top-menu>ul .more:before, #top-menu a {
+	color: white !important;
+  font-size: 17px !important;
+}
+
+#top-menu a.easy-gantt-resources{
+  background: url(/attachments/download/21/human-resources.png) no-repeat left center;
+  background-size: 20px;
+  padding-left: 25px;
+}
+
+#top-menu #loggedas a{
+  color:#009EE0 !important;
+}
+
+#top-menu .more li a , #top-menu .more li a:before,#top-menu #account li a ,#top-menu #account li a:before{
+	color:#243133 !important;
+}
+
+#account:hover ul, #account ul:hover, #account:focus ul, #account ul:focus, #account:active ul, #account ul:active {
+	right: 179px !important;
+	top:50px !important;
+}
+
+/* end header */
+/* footer */
+#footer .bgl{
+	display:none;
+}
+/* end footer */
+
+/* home page */
+.grid_4 {
+  width: 33%;
+  display: inline-block;
+  overflow: hidden;
+  vertical-align: top;
+min-width:33%;
+}
+.block{
+	padding:10px 40px;
+}
+
+.padding-10{
+	padding: 10px;
+}
+
+.block-padding .content{
+	padding-left:30px;
+	padding-right:30px;
+}
+
+.block .content {
+  border-radius: 4px;
+  display: inline-block;
+width: 96%;
+}
+
+.block .content h2{
+	color:white !important;
+	font-weight: bold;
+}
+
+#block-1 .content{
+	background-color:#B081CF;
+}
+#block-2 .content{
+	background-color:#5ABD77;
+}
+#block-3 .content{
+	background-color:#4AABE8;
+}
+
+#block-4 .content{
+	background-color:orange;
+}
+
+.block-image{
+	width: 125px;
+  padding-top: 25px;
+}
+.resources-list li{
+
+}
+.resources-list a{
+text-decoration:none;
+ font-size: 16px;
+padding:5px;
+}
+.resources-list a:focus,.resources-list a:hover{
+    background: #009ee0;
+    color: #fff;
+    padding: 5px;
+}
+
+.main-block-container{
+	padding:0px 190px;
+margin-bottom: 30px;
+}
+.block-button {
+	background-color: #2996cc !important;
+  padding: 10px 40px;
+  display: block;
+  width: 100px;
+  margin: 0 auto;
+  color: white !important;
+  font-size: 14px;
+  border-radius: 3px;
+  text-decoration: none !important;
+  font-weight: bold;
+  margin-bottom: 40px;
+  cursor: pointer;
+  font-family: Helvetica, Arial, sans-serif;
+}
+.block-button:hover {
+	background-color: #2586b7 !important;
+}
+.home-logo{
+	width:150px;
+}
+
+/* end home page */
+
+/* Login page */
+
+.action-login #wrapper{
+  background-size: 100% auto;
+  background: #023fa9 url("/images/image-home-bule-shirt.jpg") no-repeat bottom right; /* For browsers that do not support gradients */
+}
+
+.action-login #wrapper3{
+  background: -webkit-linear-gradient(#023fa9 , transparent); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#023fa9 , transparent); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#023fa9 , transparent); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#023fa9 , transparent); /* Standard syntax (must be last) */
+}
+
+.action-login #header, .action-login #main{
+	background: transparent !important;
+}
+
+/* End login page */
+
+/* tips and tricks */
+
+.videos .col-center{
+	min-height: 297px;
+}
+
+.videos .block{
+	border-bottom:1px solid #dedede;
+}
+
+/* end tips and tricks */
+
+/* new task & edit task */ 
+.description-notes{
+	display: block;
+	background: #009ee0;
+	padding: 10px;
+	margin-right: 10px;
+	line-height: 15px;
+	font-size: 12px;
+	color: white;
+}
+.splitcontent+.splitcontent .splitcontentleft label , label[for=issue_custom_field_values_11]{
+	width:100% !important;
+}
+
+.splitcontent+.splitcontent .splitcontentleft .check_box_group label, .check_box_group label{
+	width:50% !important;
+	display: inline-block;
+}
+
+label[for=issue_description],label[for=issue_custom_field_values_7]{
+	width:100% !important;
+}
+
+#all_attributes p {
+	float:none !important;
+}
+
+#attributes p, #attributes p:first-child {
+  width: 98% !important;
+}
+
+label[for=issue_custom_resource_allocator_name], #issue_custom_resource_allocator_name{
+	display:none !important;
+}
+
+.contextual a.new-issue{
+  padding: 7px !important;
+  color: white;
+  background: #2DA948;
+  box-shadow: 0px 0px 5px 0px grey;
+  border-radius: 4px;
+  margin-top: -10px !important;
+  transition: all 0.5s;
+}
+
+.contextual a.new-issue:before{
+	color : white !important;
+  top: 1px;
+  position: relative;
+}
+
+.contextual a.new-issue:hover{
+	box-shadow: 0px 0px 5px 1px grey;
+}
+
+.channel-image{
+    float: right !important;
+    width: 730px;
+    position: absolute;
+    right: 36px;
+    z-index: 3;
+display:block;
+}
+.template-left{
+display:block;
+float:left;
+    width: 330px;
+}
+.template-title{
+font-weight: bold;
+   font-weight: bold;
+    font-size: 18px;
+    /* text-align: center; */
+    color: #009EE0;
+    margin-bottom: 20px;
+}
+.template-desc{
+padding-right: 20px;
+}
+.template-btn .fa:before{
+color:white;
+
+}
+.template-btn{
+width:200px !important
+}
+.template-btn,.template-btn-details{
+float: none;
+    display: block;
+    width: 175px;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+    background: #009EE0;
+    border-radius: 5px;
+    box-shadow: 0px 0px 6px 3px #dedede;
+}
+.template-btn a,.template-btn-details a{
+color:white;
+text-decoration:none;
+}
+.channel-image img{
+    width:400px !important;
+float:right;
+}
+#issue_description_and_toolbar {
+    max-width: 600px;	
+}
+
+#start_date_area #time_begin , #due_date_area #time_end {
+	display:  none;
+}
+
+/* end new task */
+
+/* calendar */
+
+#calendar-wrapper{
+	background-color: white;
+	padding:40px;
+}
+
+.fc-event-container a {
+	padding :15px 5px;
+	text-align: center;
+}
+
+.color{
+	display: inline-block;
+  margin-bottom: 10px;
+  width: 32%;
+}
+
+#color-1 .color-bg{
+	background-color: #B081CF;
+}
+
+#color-2 .color-bg{
+	background-color: #5ABD77;
+}
+
+#color-3 .color-bg{
+	background-color: #FFA500;
+}
+
+.color .color-bg{
+	width: 30px;
+  height: 15px;
+  margin-top: 2px;
+  margin-right: 10px;
+}
+
+#color-key h3{
+	border-bottom: 1px solid #dedede;
+	padding:5px;
+}
+
+#color-key{
+	font-weight: bold;
+}
+
+.tooltip {
+  display:none;
+  position:absolute;
+  border-radius:5px;
+  box-shadow:0px 0px 2px 0px black;
+  border:1px solid #dedede;
+  padding:10px;
+  background-color: white;
+}
+
+.fc-year-view .fc-event{
+	font-size: 12px !important;
+}
+
+.buttons .block-button img{
+  width: 30px;
+  position: absolute;
+  left: 60px;
+  top: 5px;
+}
+.buttons .block-button{
+	width: 210px;
+  float: left;
+  position: relative;
+}
+.grid_2{
+    display: inline-block;
+    width: 19.4%;
+    margin-bottom: 20px;
+position: relative;
+}
+.block-main-title{
+    color: #009EE0;
+    font-weight: bold;
+    text-shadow: 0px 1px 1px #cecece;
+    padding-left: 0;
+}
+.subtitle{
+    padding-left: 15px;
+}
+.block-title{
+color: white;
+    padding-left: 15px;
+    background: rgba(0,0,0,0.7);
+    /* position: absolute; */
+    /* bottom: 14px; */
+    /* width: 80.6%; */
+    font-size: 13px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-top: -53px;
+    position: relative;
+}
+.grid_3 img,.grid_2 img{
+    box-shadow: 0px 0px 1px 2px #dedede;
+}
+.grid_3{
+width: 27.7%;
+    display: inline-block;
+    margin-bottom: 20px;
+position: relative;
+}
+.tabular label{
+width:130px;
+}
+/* end calendar */
+
+/* hide done in issue view page */
+.issue .progress {
+  display: none;
+}
+
+#wrapper #top-menu ul li a.hide-item.fa {
+  display: none !important;
+}
+
+.hide-block {
+  display: none !important;
+}
